@@ -1,0 +1,2 @@
+[console_scripts]
+pre-flight-scan = preflight.cli:main
