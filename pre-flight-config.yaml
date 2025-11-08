@@ -1,0 +1,12 @@
+# pre-flight-config.yaml
+pre_flight:
+  security_policy:
+    fail_on_critical: true
+    fail_on_high: true
+    fail_on_medium: false
+    max_cvss_score: 7.0
+    allowed_vulnerabilities:
+      - "CVE-2019-1234"
+    blocked_packages:
+      - "openssl:1.0.0"
+
