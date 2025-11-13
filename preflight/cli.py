@@ -9,7 +9,7 @@ def main():
     scanner = PreFlightScanner()
     result = asyncio.run(scanner.scan_image(args.image))
 
-    print(f"\n📦 Image: {result.image_name}")
+    print(f"\n Image: {result.image_name}")
     print(f"Critical: {result.critical}, High: {result.high}, Medium: {result.medium}")
     print("Result:", " FAILED" if result.failed_policy else "PASSED")
 
