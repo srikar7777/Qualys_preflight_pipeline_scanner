@@ -11,7 +11,7 @@ def main():
 
     print(f"\n📦 Image: {result.image_name}")
     print(f"Critical: {result.critical}, High: {result.high}, Medium: {result.medium}")
-    print("Result:", "❌ FAILED" if result.failed_policy else "✅ PASSED")
+    print("Result:", " FAILED" if result.failed_policy else "PASSED")
 
     exit(1 if result.failed_policy else 0)
 
